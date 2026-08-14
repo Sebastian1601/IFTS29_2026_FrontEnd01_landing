@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tu Nombre — Desarrollador/a de software</title>
+<meta name="description" content="CV online de Tu Nombre: experiencia, proyectos y tecnologías.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+<!-- ============================================================
+     NAVBAR
+     ============================================================ -->
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="#inicio">
+      <strong>Tu Nombre</strong>
+      <span>Hoja de especificaciones / Dev</span>
+    </a>
+
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="mainNav">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+        <line x1="3" y1="6" x2="21" y2="6"/>
+        <line x1="3" y1="12" x2="21" y2="12"/>
+        <line x1="3" y1="18" x2="21" y2="18"/>
+      </svg>
+      <span class="visually-hidden" style="position:absolute;left:-9999px;">Abrir menú</span>
+    </button>
+
+    <nav class="main-nav" id="mainNav" data-open="false" aria-label="Navegación principal">
+      <ul>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#experiencia">Experiencia</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#tecnologias">Tecnologías</a></li>
+        <li><a href="#educacion">Educación</a></li>
+        <li><a class="cta-link" href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="contenido">
+
+  <!-- ============================================================
+       HERO — 4 paneles tipo bloque de título de un plano técnico
+       ============================================================ -->
+  <section class="hero" id="inicio" aria-label="Presentación">
+    <div class="wrap">
+
+      <div class="hero-lead">
+        <div>
+          <p class="eyebrow">Hoja 01 · Presentación</p>
+          <h1>Hola, soy <em>Tu Nombre</em>.</h1>
+          <p class="hero-role">Desarrollador/a de software — construyo productos web de punta a punta, del diseño de la arquitectura a la interfaz final.</p>
+        </div>
+        <p class="hero-coords">
+          LAT 34.5°S · LON 58.7°O<br>
+          REV. 2026-08
+        </p>
+      </div>
+
+      <div class="hero-panels">
+
+        <!-- Panel 1: foto + presentación breve -->
+        <article class="hero-panel panel-photo">
+          <h2>01 — Perfil</h2>
+          <!--
+            Reemplazá este bloque por tu foto real, por ejemplo:
+            <img src="tu-foto.jpg" alt="Foto de Tu Nombre" class="avatar-slot">
+          -->
+          <div class="avatar-slot" role="img" aria-label="Espacio reservado para tu foto de perfil">
+            TU FOTO<br>AQUÍ
+          </div>
+          <p>Foto de perfil pendiente de carga.</p>
+        </article>
+
+        <!-- Panel 2: stack principal -->
+        <article class="hero-panel panel-stack">
+          <h2>02 — Stack principal</h2>
+          <ul class="tag-list">
+            <li>JavaScript</li>
+            <li>TypeScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>PostgreSQL</li>
+          </ul>
+        </article>
+
+        <!-- Panel 3: estado actual -->
+        <article class="hero-panel panel-status">
+          <h2>03 — Estado</h2>
+          <p class="status-line"><span class="status-dot" aria-hidden="true"></span> Disponible para nuevos proyectos</p>
+          <p>Buscando roles freelance o full-time como desarrollador/a full-stack, remoto o híbrido.</p>
+        </article>
+
+        <!-- Panel 4: contacto rápido -->
+        <article class="hero-panel panel-contact">
+          <h2>04 — Contacto directo</h2>
+          <ul class="quick-links">
+            <li><a href="mailto:tu@email.com"><span>Email</span><span>tu@email.com</span></a></li>
+            <li><a href="https://github.com/tu-usuario" target="_blank" rel="noopener">
+              <span>GitHub</span><span>@tu-usuario</span></a></li>
+            <li><a href="https://linkedin.com/in/tu-usuario" target="_blank" rel="noopener">
+              <span>LinkedIn</span><span>/in/tu-usuario</span></a></li>
+          </ul>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SOBRE MÍ
+       ============================================================ -->
+  <section id="sobre-mi" aria-labelledby="sobre-mi-titulo">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Hoja 02 · Sobre mí</p>
+        <h2 id="sobre-mi-titulo">Quién soy y cómo trabajo</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-photo">
+          <!--
+            Reemplazá este bloque por tu foto real, por ejemplo:
+            <img src="tu-foto-about.jpg" alt="Foto de Tu Nombre trabajando" class="avatar-slot-lg">
+          -->
+          <div class="avatar-slot-lg" role="img" aria-label="Espacio reservado para una segunda foto tuya">
+            Espacio para imagen<br>(sugerido 4:5 — ej. 800×1000px)
+          </div>
+          <ul class="about-facts">
+            <li><b>Base</b><span>Buenos Aires, AR</span></li>
+            <li><b>Experiencia</b><span>X años</span></li>
+            <li><b>Modalidad</b><span>Remoto / Híbrido</span></li>
+            <li><b>Idiomas</b><span>Español, Inglés</span></li>
+          </ul>
+        </div>
+
+        <div class="about-text">
+          <p>
+            Escribí acá 2 o 3 párrafos contando tu recorrido: cómo empezaste a programar,
+            qué tipo de problemas te gusta resolver y qué te distingue como profesional.
+            Este es el espacio para que se note tu forma de pensar, no solo tu lista de tareas.
+          </p>
+          <p>
+            Podés mencionar el tipo de proyectos en los que más rendís (por ejemplo, productos
+            desde cero, migraciones de sistemas legados, equipos chicos vs. grandes), y qué
+            buscás en tu próximo desafío.
+          </p>
+          <p>
+            Cerrá con una línea personal: un interés fuera del código, una forma particular de
+            trabajar en equipo, o lo que te mantiene motivado/a a largo plazo.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       EXPERIENCIA
+       ============================================================ -->
+  <section id="experiencia" class="band-alt" aria-labelledby="experiencia-titulo">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Hoja 03 · Trayectoria</p>
+        <h2 id="experiencia-titulo">Experiencia laboral</h2>
+      </div>
+
+      <ol class="timeline">
+        <li class="timeline-item">
+          <div class="timeline-when">
+            <time datetime="2024">2024 — Presente</time>
+          </div>
+          <article class="timeline-body">
+            <h3>Puesto actual</h3>
+            <p class="timeline-role">Nombre de la empresa · Remoto</p>
+            <p>
+              Describí acá tus responsabilidades principales y 1 o 2 logros medibles
+              (por ejemplo: "redujo el tiempo de carga en 40%" o "lideró la migración a
+              microservicios").
+            </p>
+          </article>
+        </li>
+
+        <li class="timeline-item">
+          <div class="timeline-when">
+            <time datetime="2022">2022 — 2024</time>
+          </div>
+          <article class="timeline-body">
+            <h3>Puesto anterior</h3>
+            <p class="timeline-role">Nombre de la empresa · Presencial</p>
+            <p>
+              Contá qué proyectos desarrollaste, con qué equipo trabajaste y qué
+              aprendiste en este rol.
+            </p>
+          </article>
+        </li>
+
+        <li class="timeline-item">
+          <div class="timeline-when">
+            <time datetime="2020">2020 — 2022</time>
+          </div>
+          <article class="timeline-body">
+            <h3>Primer puesto / práctica profesional</h3>
+            <p class="timeline-role">Nombre de la empresa · Presencial</p>
+            <p>
+              Este es un buen lugar para mostrar tu crecimiento: de qué arrancaste
+              y a qué nivel llegaste.
+            </p>
+          </article>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       PROYECTOS
+       ============================================================ -->
+  <section id="proyectos" aria-labelledby="proyectos-titulo">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Hoja 04 · Proyectos</p>
+        <h2 id="proyectos-titulo">Proyectos destacados</h2>
+      </div>
+
+      <div class="project-grid">
+
+        <article class="project-card">
+          <!--
+            Reemplazá por una captura real, por ejemplo:
+            <img src="proyecto-1.jpg" alt="Captura de pantalla del proyecto 1" class="project-thumb">
+          -->
+          <div class="project-thumb" role="img" aria-label="Espacio reservado para una captura del proyecto 1">
+            Captura del proyecto<br>(sugerido 16:10)
+          </div>
+          <div class="project-body">
+            <h3>Nombre del proyecto 1</h3>
+            <p>Una o dos líneas explicando qué problema resuelve este proyecto y qué hiciste vos concretamente.</p>
+            <ul class="project-tags">
+              <li>React</li>
+              <li>Node.js</li>
+              <li>PostgreSQL</li>
+            </ul>
+            <div class="project-links">
+              <a href="#" target="_blank" rel="noopener">Ver demo →</a>
+              <a href="#" target="_blank" rel="noopener">Código →</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-thumb" role="img" aria-label="Espacio reservado para una captura del proyecto 2">
+            Captura del proyecto<br>(sugerido 16:10)
+          </div>
+          <div class="project-body">
+            <h3>Nombre del proyecto 2</h3>
+            <p>Contá el contexto: ¿fue un proyecto personal, freelance o de trabajo? ¿Qué lo hace interesante?</p>
+            <ul class="project-tags">
+              <li>TypeScript</li>
+              <li>Next.js</li>
+            </ul>
+            <div class="project-links">
+              <a href="#" target="_blank" rel="noopener">Ver demo →</a>
+              <a href="#" target="_blank" rel="noopener">Código →</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-thumb" role="img" aria-label="Espacio reservado para una captura del proyecto 3">
+            Captura del proyecto<br>(sugerido 16:10)
+          </div>
+          <div class="project-body">
+            <h3>Nombre del proyecto 3</h3>
+            <p>Ideal para un proyecto que muestre otra faceta tuya: mobile, datos, automatización, etc.</p>
+            <ul class="project-tags">
+              <li>Python</li>
+              <li>Docker</li>
+            </ul>
+            <div class="project-links">
+              <a href="#" target="_blank" rel="noopener">Ver demo →</a>
+              <a href="#" target="_blank" rel="noopener">Código →</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       TECNOLOGÍAS
+       ============================================================ -->
+  <section id="tecnologias" class="band-alt" aria-labelledby="tecnologias-titulo">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Hoja 05 · Leyenda técnica</p>
+        <h2 id="tecnologias-titulo">Tecnologías y herramientas</h2>
+      </div>
+
+      <div class="tech-groups">
+        <div class="tech-group">
+          <h3>Lenguajes</h3>
+          <ul>
+            <li>JavaScript</li>
+            <li>TypeScript</li>
+            <li>Python</li>
+            <li>SQL</li>
+          </ul>
+        </div>
+
+        <div class="tech-group">
+          <h3>Frontend</h3>
+          <ul>
+            <li>React</li>
+            <li>Next.js</li>
+            <li>HTML semántico &amp; CSS</li>
+          </ul>
+        </div>
+
+        <div class="tech-group">
+          <h3>Backend</h3>
+          <ul>
+            <li>Node.js</li>
+            <li>Express</li>
+            <li>REST &amp; APIs GraphQL</li>
+          </ul>
+        </div>
+
+        <div class="tech-group">
+          <h3>Datos</h3>
+          <ul>
+            <li>PostgreSQL</li>
+            <li>MongoDB</li>
+            <li>Redis</li>
+          </ul>
+        </div>
+
+        <div class="tech-group">
+          <h3>DevOps &amp; herramientas</h3>
+          <ul>
+            <li>Docker</li>
+            <li>Git &amp; GitHub</li>
+            <li>CI/CD</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       EDUCACIÓN Y CERTIFICACIONES
+       ============================================================ -->
+  <section id="educacion" aria-labelledby="educacion-titulo">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Hoja 06 · Formación</p>
+        <h2 id="educacion-titulo">Educación y certificaciones</h2>
+      </div>
+
+      <div class="edu-grid">
+        <article class="edu-card">
+          <time datetime="2019">2019 — 2023</time>
+          <h3>Título / carrera</h3>
+          <p>Nombre de la institución educativa.</p>
+        </article>
+
+        <article class="edu-card">
+          <time datetime="2023">2023</time>
+          <h3>Nombre de la certificación</h3>
+          <p>Entidad emisora de la certificación.</p>
+        </article>
+
+        <article class="edu-card">
+          <time datetime="2024">2024</time>
+          <h3>Curso o certificación adicional</h3>
+          <p>Entidad emisora del curso.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CONTACTO
+       ============================================================ -->
+  <section id="contacto" class="contact" aria-labelledby="contacto-titulo">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Hoja 07 · Contacto</p>
+        <h2 id="contacto-titulo">Trabajemos juntos</h2>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-lead">
+          <p>
+            ¿Tenés un proyecto en mente o una posición que pueda encajar con mi perfil?
+            Escribime y te respondo a la brevedad.
+          </p>
+          <a class="btn-primary" href="mailto:tu@email.com">Escribime un email →</a>
+        </div>
+
+        <ul class="contact-list">
+          <li><a href="mailto:tu@email.com"><span>Email</span><span>tu@email.com</span></a></li>
+          <li><a href="https://github.com/tu-usuario" target="_blank" rel="noopener"><span>GitHub</span><span>@tu-usuario</span></a></li>
+          <li><a href="https://linkedin.com/in/tu-usuario" target="_blank" rel="noopener"><span>LinkedIn</span><span>/in/tu-usuario</span></a></li>
+          <li><a href="#" target="_blank" rel="noopener"><span>CV en PDF</span><span>Descargar</span></a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============================================================
+     FOOTER
+     ============================================================ -->
+<footer class="site-footer">
+  <div class="wrap">
+    <span>© 2026 Tu Nombre. Hecho a mano.</span>
+    <a href="#inicio">Volver arriba ↑</a>
+  </div>
+</footer>
+
+<script>
+  // Menú móvil: abrir/cerrar y cerrar automáticamente al elegir un link
+  (function () {
+    var toggle = document.getElementById('navToggle');
+    var nav = document.getElementById('mainNav');
+    if (!toggle || !nav) return;
+
+    function setOpen(open) {
+      nav.setAttribute('data-open', open ? 'true' : 'false');
+      toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    }
+
+    toggle.addEventListener('click', function () {
+      setOpen(nav.getAttribute('data-open') !== 'true');
+    });
+
+    nav.querySelectorAll('a').forEach(function (link) {
+      link.addEventListener('click', function () { setOpen(false); });
+    });
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') setOpen(false);
+    });
+  })();
+</script>
+</body>
+</html>
