@@ -68,4 +68,20 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     });
   });
+
+
+
+});
+
+const formulario = document.querySelector("#formContacto")
+formulario.addEventListener("submit", (e) => {
+  e.preventDefault();
+  const modal = document.querySelector(".modal");
+  console.log(modal);
+  modal.classList.add("modal-visible");
+  console.log(modal.classList);
+  setTimeout(() => {
+    modal.classList.remove("modal-visible");
+    formulario.reset();
+  }, 2000);
 });
