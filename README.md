@@ -10,7 +10,7 @@ Desarrollo de la landing page basada en mi, como CV digital y en linea para pres
 ## Enlaces
 - [Repositorio en Github](https://github.com/Sebastian1601/IFTS29_2026_FrontEnd01_landing)
 
-- [IFTS29 2026 Frontend landing en Vercel](ifts-29-2026-front-end01-landing.vercel.app)
+- [IFTS29 2026 Frontend landing en Vercel](https://ifts-29-2026-front-end01-landing-sebastian1601s-projects.vercel.app/)
 
 ## Creación de la página principal
 
