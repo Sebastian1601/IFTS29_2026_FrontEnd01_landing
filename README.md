@@ -6,11 +6,13 @@ Desarrollo de la landing page basada en mi, como CV digital y en linea para pres
 ## Tecnologías
 - HTML
 - CSS
+- Javascript
+- GSAP
 
 ## Enlaces
-- [Repositorio en Github](https://github.com/Sebastian1601/IFTS29_2026_FrontEnd01_landing)
+- [Repositorio en Github](https://github.com/Sebastian1601/IFTS29_2026_FrontEnd01_landing) público
 
-- [IFTS29 2026 Frontend landing en Vercel](https://ifts-29-2026-front-end01-landing-sebastian1601s-projects.vercel.app/)
+- [IFTS29 2026 Frontend landing en Vercel](https://portfolio-sebastian1601.vercel.app/)
 
 ## Creación de la página principal
 
@@ -68,4 +70,4 @@ genera una imagen de tamaño similar a la anterior, donde los logos de los lengu
 En particular, me gustó desde un primer momento como quedó la landing basada en este universo. A partir de ahi, solicité a la IA me cree los logos necesarios mencionados junto con la imagen de confirmación de envío de formulario.
 Las imágenes de los proyectos las descargué de internet directamente, con método tradicional de buscador y "guardar imagen como..."
 
-Agregué la sección de los logos de Github y LinkedIn, junto con el CSS correspondiente, y la parte del modal al confirmar el formulario también fue de confección manual, sumando el miniDavid.
+Agregué hipervínculos con los logos de Github y LinkedIn, junto con el CSS correspondiente, y la parte del modal al confirmar el formulario también fue de confección manual.
